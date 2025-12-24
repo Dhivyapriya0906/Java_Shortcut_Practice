@@ -1,6 +1,8 @@
 public class sumofn_number{
     public static void main(String[] args){
         int num=15;
+        int res=num*(num+1)/2;          //Formulaa
+        System.out.println(res);
         System.out.println(getSum(num));
         
     }
